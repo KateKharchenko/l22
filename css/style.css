@@ -250,3 +250,36 @@ html, body {
         -ms-transform: translate(-50%, 100%);
         -o-transform: translate(-50%, 100%);
         transform: translate(-50%, 100%); }
+
+.no-flexbox .container {
+  text-align: center; }
+
+.no-flexbox .column {
+  width: 330px;
+  height: 630px;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 20px 10px; }
+  .no-flexbox .column--lg {
+    width: 370px;
+    height: 695px; }
+  .no-flexbox .column__list {
+    text-align: center; }
+
+.no-borderradius .button, .no-borderradius .column__link {
+  text-align: center;
+  font-family: 'bebas_neuebold', sans-serif;
+  color: #fff;
+  font-size: 18px;
+  padding: 15px 45px;
+  display: inline-block;
+  border-radius: 30px;
+  background: #444;
+  text-decoration: none;
+  opacity: 1;
+  white-space: nowrap;
+  width: 200px;
+  height: 55px;
+  background: url(../img/btn.png) no-repeat center; }
+  .no-borderradius .button:hover, .no-borderradius .column__link:hover, .no-borderradius .button:focus, .no-borderradius .column__link:focus {
+    opacity: 1; }

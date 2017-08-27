@@ -303,3 +303,46 @@ html, body {
 		}
 	}
 }
+
+.no-flexbox {
+	.container {
+		text-align: center;
+	}
+	.column {
+		width: 330px;
+		height: 630px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 20px 10px;
+		&--lg {
+			width: 370px;
+			height: 695px;
+		}
+		&__list {
+			text-align: center;
+		}
+	}
+}
+
+.no-borderradius {
+	.button {
+		text-align: center;
+		font-family: 'bebas_neuebold', sans-serif;
+		color: #fff;
+		font-size: 18px;
+		padding: 15px 45px;
+		display: inline-block;
+		border-radius: 30px;
+		background: #444;
+		text-decoration: none;
+		opacity: 1;
+		white-space: nowrap;
+		width: 200px;
+		height: 55px;
+		background: url(../img/btn.png) no-repeat center;
+		&:hover,
+		&:focus {
+			opacity: 1;
+		}
+	}
+} 
